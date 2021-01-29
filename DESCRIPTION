@@ -1,0 +1,16 @@
+Package: uk2us
+Type: Package
+Title: Convert between UK and US spellings
+Version: 0.1.0
+Authors@R:
+  person(given = "Benjamin",
+         family = "Davies",
+         email = "git@bldavies.com",
+         role = c("aut", "cre"),
+         comment = c(ORCID = "0000-0002-1749-4567"))
+Description: This package provides functions for converting between UK and US spellings of English words.
+Depends: R (>= 2.10)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
