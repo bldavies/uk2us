@@ -15,7 +15,7 @@ convert_us2uk(x, crosswalk = uk2us::ukus_crosswalk)
 A vector of converted words.
 }
 \description{
-\code{convert_uk2us} converts a vector of words from US to UK English.
+\code{convert_us2uk} converts a vector of words from US to UK English.
 }
 \seealso{
 \code{\link{convert_uk2us}}

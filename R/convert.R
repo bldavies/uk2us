@@ -18,7 +18,7 @@ convert_uk2us <- function(x, crosswalk = uk2us::ukus_crosswalk) {
 
 #' Convert words from US to UK English
 #' 
-#' \code{convert_uk2us} converts a vector of words from US to UK English.
+#' \code{convert_us2uk} converts a vector of words from US to UK English.
 #' 
 #' @param x Vector of words to convert.
 #' @param crosswalk Data frame with columns \code{uk} and \code{us}.
