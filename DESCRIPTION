@@ -1,6 +1,6 @@
 Package: uk2us
 Type: Package
-Title: Convert between UK and US spellings
+Title: Convert words between UK and US English
 Version: 0.1.0
 Authors@R:
   person(given = "Benjamin",
