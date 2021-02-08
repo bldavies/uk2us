@@ -1,4 +1,4 @@
-# UKUS-CROSSWALK.R
+# UKUS_CROSSWALK.R
 #
 # This script generates a crosswalk between UK and US English words.
 #
@@ -25,9 +25,9 @@ ukus_crosswalk <- source_html %>%
   mutate_all(trimws)
 
 # Export crosswalk
-write_csv(ukus_crosswalk, "data-raw/ukus-crosswalk.csv")
+write_csv(ukus_crosswalk, "data-raw/ukus_crosswalk.csv")
 if (!dir.exists("data")) dir.create("data/")
-save(ukus_crosswalk, file = "data/ukus-crosswalk.rda", version = 2, compress = "bzip2")
+save(ukus_crosswalk, file = "data/ukus_crosswalk.rda", version = 2, compress = "bzip2")
 
 # Save session info
-bldr::save_session_info("data-raw/ukus-crosswalk.log")
+bldr::save_session_info("data-raw/ukus_crosswalk.log")
