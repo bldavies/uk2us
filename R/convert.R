@@ -9,6 +9,9 @@
 #' 
 #' @seealso \code{\link{convert_us2uk}}
 #' 
+#' @examples
+#' convert_uk2us(c("centre", "colour", "colourize"))
+#' 
 #' @export
 convert_uk2us <- function(x, crosswalk = uk2us::ukus_crosswalk) {
   locs <- match(tolower(x), crosswalk[[1]])
@@ -26,6 +29,9 @@ convert_uk2us <- function(x, crosswalk = uk2us::ukus_crosswalk) {
 #' @return A vector of converted words.
 #' 
 #' @seealso \code{\link{convert_uk2us}}
+#' 
+#' @examples
+#' convert_us2uk(c("center", "color", "colorize"))
 #' 
 #' @export
 convert_us2uk <- function(x, crosswalk = uk2us::ukus_crosswalk) {

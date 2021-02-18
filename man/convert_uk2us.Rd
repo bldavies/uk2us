@@ -17,6 +17,10 @@ A vector of converted words.
 \description{
 \code{convert_uk2us} converts a vector of words from UK to US English.
 }
+\examples{
+convert_uk2us(c("centre", "colour", "colourize"))
+
+}
 \seealso{
 \code{\link{convert_us2uk}}
 }
